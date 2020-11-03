@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap');
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    padding: 0;
+    margin: 0;
+}
+#logo {
+    line-height: 75px;
+    font-size: 150%;
+    display: inline-block;
+}
+#logo a {
+    color: rgb(240, 240, 240);
+    font-weight: bold;  
+}
+#logo a:hover {
+    text-decoration: none;
+}
+.menu-bg {
+    background-color: rgb(43, 43, 43);
+    padding-left: 2%;
+}
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+.float-menu-right {
+    float: right;
+}
+.nav-item {
+    width: 120px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    display: inline-block;
+}
+.nav-item a {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 150%;
+    color: rgb(43, 43, 43);
+}
+.nav-item a:hover {
+    border-top: 5px solid rgb(43, 43, 43);
+    border-bottom: 5px solid rgb(43, 43, 43);
+    border-radius: 5px;
+    text-decoration: none;
+}
+#home-menu {
+    background-color: rgb(247, 247, 115);
+}
+#release-menu {
+    background-color: rgb(93, 197, 238);
+}
+#artists-menu {
+    background-color: rgb(188, 240, 110);
+}
+#contact-menu {
+    background-color: rgb(241, 189, 198);
+}
